@@ -8,7 +8,9 @@
     "node": "6.*"
   },
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -19,9 +21,11 @@
     "mongoose": "^4.13.x",
     "express": "^4.15.x",
     "fs": "~0.0.1",
-    "assert": "^1.4.x"
+    "assert": "^1.4.x",
+    "snyk": "^1.316.1"
   },
   "author": "Anthony Amanse",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "snyk": true
 }
 
