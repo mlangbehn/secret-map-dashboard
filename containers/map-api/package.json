@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "body-parser": "^1.17.x",
-    "mongoose": "^4.13.x",
+    "mongoose": "^5.11.7",
     "express": "^4.15.x",
     "fs": "~0.0.1",
     "assert": "^1.4.x"
